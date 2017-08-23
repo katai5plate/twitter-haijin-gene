@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ja">
+<html>
+    <head>
+        <meta charset="UTF-8">
+        
+        <title>ツイ廃のみなさん</title>
+        
+        <style>
+            body{
+                background-color: blanchedalmond;
+                font-family: IPAMonaPGothic,'ＭＳ Ｐゴシック',sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <script type="text/javascript">
+                
+                
+                
+                function Submit(){
+                    document.getElementById("ans").innerHTML
+                        = Mix(document.process.arg);
+                }
+                
+                function Tweet(){
+                    window.open(
+                        "https://twitter.com/intent/tweet?text="+
+                        encodeURIComponent(Mix(document.process.arg,1)));
+                }
+                
+                function Mix(x,m){
+                    r="";
+                    
+                    r += x[0].value + 
+                        x[2].value+"の"+x[3].value+"、"+x[4].value;
+                    r += !m ? "<br><br>" : "\n\n"
+                    r += x[0].value + 
+                        x[5].value+"や"+x[6].value+"を言い訳に"+
+                        x[1].value+"を"+x[7].value+"のは"+x[8].value+"です";
+                    r += !m ? "<br><br>" : "\n\n"
+                    r += x[0].value + 
+                        x[9].value+"や"+x[10].value+"と"+
+                        x[1].value+"の"+x[11].value+"が"+x[12].value+"のなら"+
+                        x[13].value+"や"+x[14].value+"を"+x[15].value;
+                    r += !m ? "<br><br>" : "\n\n"
+                    r += x[0].value + "それでは"+
+                        x[16].value+"、今日も"+x[17].value+x[1].value+x[18].value+"を";
+                    
+                    //r += m ? "\n"+"had2apps.com/twi/hai":"";
+                    return r;
+                }
+                
+            </script>
+            
+            <header>
+                <h1>ツイ廃のみなさん＠コピペツール</h1>
+                <hr><br>
+            </header>
+            
+            <form name="process" action="#">
+                顔文字：<input type="text" name="arg" value="(・_・)"><br>
+                ○○：<input type="text" name="arg" value="Twitter"><br>
+                <br>
+                (・_・)<br>
+                <input type="text" name="arg" value="ツイ廃">の
+                <input type="text" name="arg" value="みなさん">、<br>
+                <input type="text" name="arg" value="おはようございます">
+                <br><br>
+                <input type="text" name="arg" value="授業">や
+                <input type="text" name="arg" value="仕事">を言い訳に<br>
+                ○○を<input type="text" name="arg" value="サボる">のは
+                <input type="text" name="arg" value="甘え">です
+                <br><br>
+                <input type="text" name="arg" value="勉強">や
+                <input type="text" name="arg" value="仕事">と<br>
+                ○○の<input type="text" name="arg" value="両立">が
+                <input type="text" name="arg" value="できない">のなら<br>
+                <input type="text" name="arg" value="学校">や
+                <input type="text" name="arg" value="会社">を<br>
+                <input type="text" name="arg" value="辞めましょう">
+                <br><br>
+                それでは
+                <input type="text" name="arg" value="皆さん">、<br>
+                今日も
+                <input type="text" name="arg" value="よき">○○
+                <input type="text" name="arg" value="ライフ">を<br>
+                <br>
+                <input type="button" value="つくる" onclick="Submit()">
+                <input type="button" value="ツイートする" onclick="Tweet()">
+            </form>
+            
+            <br><hr>
+            
+            <p id="ans">（ここに作られるよ）</p>
+            
+            <p id="log"></p>
+            
+            <div id="ad">
+                <script type="text/javascript">
+                    google_ad_client = "ca-pub-1359499392752295";
+                    google_ad_slot = "1632347161";
+                    google_ad_width = 728;
+                    google_ad_height = 90;
+                </script>
+                <!-- フッタービッグバナー(PC) -->
+                <script type="text/javascript"
+                    src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+                </script>
+            </div>
+            
+            <hr>
+            
+            <nav>
+                <ul>
+                    <li><a href="http://had2apps.com/">トップページ</a></li>
+                    <li><a href="">工事中</a></li>
+                    <li><a href="">工事中</a></li>
+                </ul>
+            </nav>
+            
+            <footer>
+                <address>
+                    powered by 
+                    <a href="http://had2apps.com/">
+                    had2apps.com</a>,
+                    created by 
+                    <a href="https://twitter.com/katai5plate">
+                    @katai5plate</a>.
+                </address>
+            </footer>
+            
+            <div id="ad">
+                <script type="text/javascript">
+                    google_ad_client = "ca-pub-1359499392752295";
+                    google_ad_slot = "1632347161";
+                    google_ad_width = 728;
+                    google_ad_height = 90;
+                </script>
+                <!-- フッタービッグバナー(PC) -->
+                <script type="text/javascript"
+                    src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+                </script>
+            </div>
+                    
+        </div>
+    </body>
+</html>
